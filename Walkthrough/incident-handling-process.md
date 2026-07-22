@@ -1,4 +1,4 @@
-![# Incident handling #](https://img.shields.io/badge/Incident%20handling-58a6ff)
+# Incident handling #
 
 An **event** is an action occurring in a system or network. Example: Sending Email  
 An **incident** is an event with a negative consequence. Example: System Crash, Unauthorized Access
