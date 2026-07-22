@@ -5,7 +5,7 @@ An **incident** is an event with a negative consequence. Example: System Crash, 
 
 <span style="color:#58a6ff"> ***Incident handling*** is a clearly defined set of procedures for managing and responding to security incidents in a computer or network environment. </span>
 
-# Different Types of Real-World Incidents  #
+## Different Types of Real-World Incidents ##
 - Leaked Credentials 
     - Colonial Pipeline Ransomware Attack  
 - Default / Weak Credentials
