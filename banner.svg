@@ -1,0 +1,50 @@
+<svg width="100%" viewBox="0 0 680 200" role="img">
+<title>Animated HTB-style banner</title>
+<desc>A stylized animated banner with a blinking isometric cube and a terminal that types the whoami command then reveals its response in red, with a moving blinking cursor</desc>
+<defs>
+<clipPath id="bannerClip"><rect x="0" y="0" width="680" height="200" rx="12"/></clipPath>
+<clipPath id="typeClip1"><rect x="170" y="138" width="0" height="18"><animate attributeName="width" values="0;0;68;68;68;68;68;0" keyTimes="0;0.05;0.35;0.55;0.60;0.85;0.95;1" dur="6s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="typeClip2"><rect x="170" y="156" width="0" height="18"><animate attributeName="width" values="0;0;0;0;0;90;90;0" keyTimes="0;0.05;0.35;0.55;0.60;0.85;0.95;1" dur="6s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<g clip-path="url(#bannerClip)">
+<rect x="0" y="0" width="680" height="200" fill="#0d1117"/>
+<g stroke="#9fef00" stroke-width="0.4" opacity="0.15">
+<line x1="0" y1="40" x2="680" y2="40"/>
+<line x1="0" y1="80" x2="680" y2="80"/>
+<line x1="0" y1="120" x2="680" y2="120"/>
+<line x1="0" y1="160" x2="680" y2="160"/>
+</g>
+<g transform="translate(90,88)">
+<g>
+<animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="1;1;0.15;1;1" keyTimes="0;0.45;0.5;0.55;1" dur="4s" repeatCount="indefinite"/>
+<polygon points="0,-28 24,-14 0,0 -24,-14" fill="#9fef00" opacity="0.9"/>
+<polygon points="0,0 24,-14 24,14 0,28" fill="#6ba300" opacity="0.9"/>
+<polygon points="0,0 -24,-14 -24,14 0,28" fill="#4d7a00" opacity="0.9"/>
+</g>
+</g>
+<text x="170" y="85" font-family="monospace" font-size="34" font-weight="bold" fill="#9fef00">
+sezan88
+<animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite"/>
+</text>
+<text x="170" y="115" font-family="monospace" font-size="16" fill="#c9d1d9">
+<tspan>SOC Analyst Path — HackTheBox</tspan>
+</text>
+<rect x="170" y="128" width="0" height="2" fill="#9fef00">
+<animate attributeName="width" values="0;260;260;0" keyTimes="0;0.4;0.9;1" dur="3.5s" repeatCount="indefinite"/>
+</rect>
+<g clip-path="url(#typeClip1)">
+<text x="170" y="151" font-family="monospace" font-size="13" fill="#7d8590">$ whoami</text>
+</g>
+<g clip-path="url(#typeClip2)">
+<text x="170" y="169" font-family="monospace" font-size="13" fill="#ff3b3b">r00t_s1gm@</text>
+</g>
+<g>
+<animate attributeName="opacity" values="1;0;1;0;1;0;1;0;1;0;1;0" dur="1.2s" repeatCount="indefinite"/>
+<rect width="7" height="14" fill="#9fef00">
+<animate attributeName="x" values="170;170;238;238;170;260;260;170" keyTimes="0;0.05;0.35;0.55;0.60;0.85;0.95;1" dur="6s" repeatCount="indefinite"/>
+<animate attributeName="y" values="139;139;139;139;157;157;157;139" keyTimes="0;0.05;0.35;0.55;0.60;0.85;0.95;1" dur="6s" repeatCount="indefinite"/>
+</rect>
+</g>
+</g>
+</svg>
