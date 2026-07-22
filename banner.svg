@@ -1,4 +1,4 @@
-<svg width="100%" viewBox="0 0 680 200" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 200" role="img">
 <title>Animated HTB-style banner</title>
 <desc>A stylized animated banner with a blinking isometric cube and a terminal that types the whoami command then reveals its response in red, with a moving blinking cursor</desc>
 <defs>
