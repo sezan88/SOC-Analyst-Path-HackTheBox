@@ -50,11 +50,11 @@ In the `Command and Control` stage, the attacker establishes a <mark>remote</mar
 The final stage of the chain is the `Action` or `objective` of the attack
 
 
-##MITRE ATT&CK Framework##
+## MITRE ATT&CK Framework ##
 Another framework for understanding adversary behavior is the MITRE ATT&CK framework. It is a more granular, matrix-based knowledge base of adversary tactics and techniques used to achieve specific goals.
 ![MTIRE](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/mitreintro.png)
 
-####Tactic####
+#### Tactic ####
 - A high-level adversary objective during an intrusion. Examples:
       -Initial Access.
       -Persistence.
