@@ -72,6 +72,7 @@ Another framework for understanding adversary behavior is the MITRE ATT&CK frame
     - T1021.002 - Remote Services: SMB/Windows Admin Shares
 
 
+
 ## Pyramid of Pain ##
 In the diagram below, the Pyramid of Pain illustrates how much effort it takes for an adversary to change their tactics when defenders detect and block different types of indicators.
 ![pyramid](https://securedtips.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1725091025366%2F9f2a89b2-de31-44b0-bcd8-9ddf4296f878.png&w=3840&q=75)
