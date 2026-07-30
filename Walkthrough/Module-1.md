@@ -29,7 +29,7 @@ An **incident** is an event with a negative consequence. Example: System Crash, 
 ![cykill](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/Cyber_kill_chain.png)
 This shows seven stage of attack. Before respond to an incident, it is important to know how an incident (attack) is actually happening. 
 
-The first stage is 'recon' where an attacker gather intel about the company or organization.
+The first stage is '''recon''' where an attacker gather intel about the company or organization.
 ![recon](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/ir_recon.png)
 
 The second stage is <mark>Weaponize</mark> where an attacker builds a stealthy piece of malware (avoids AV/EDR) and packages it into a payload. The information gained from 'recon' process is used here to build the payload.
