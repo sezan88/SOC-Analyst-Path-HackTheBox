@@ -7,7 +7,7 @@ An **incident** is an event with a negative consequence. Example: System Crash, 
 
 <span style="color:#58a6ff"> ***Incident handling*** is a clearly defined set of procedures for managing and responding to security incidents in a computer or network environment. </span>
 
-## Different Types of Real-World Incidents ##
+### Different Types of Real-World Incidents ###
 - Leaked Credentials 
     - Colonial Pipeline Ransomware Attack  
 - Default / Weak Credentials
@@ -25,3 +25,8 @@ An **incident** is an event with a negative consequence. Example: System Crash, 
     - SolarWinds Orion (2020)
  
 
+## Cyber Kill Chain ##
+![cykill](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/Cyber_kill_chain.png)
+This shows seven stage of attack. Before respond to an incident, it is important to know how an incident (attack) is actually happening. 
+
+The first stage is 'recon' where an attacker gather intel about the company or organization.
