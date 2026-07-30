@@ -37,7 +37,7 @@ is `recon` where an attacker gather intel about the company or organization.
 ### The second stage ###
 is <mark>Weaponize</mark> where an attacker builds a stealthy piece of malware (avoids AV/EDR) and packages it into a payload. The information gained from <mark>recon</mark> process is used here to build the payload.
 
-### The third stage###
+### The third stage ###
 `Delivery`, the attacker gets the payload in front of the victim. The **most common method** is phishing. A malicious email attachment or a link to a web page is very common. Attackers also use **phone-based social engineering**, calling the victim and convincing them to run a payload. And when digital delivery isn't an option, attackers fall back on **physical delivery**.
 
 ### The fourth stage ###
@@ -55,6 +55,7 @@ In the `Command and Control` stage, the attacker establishes a <mark>remote</mar
 
 ### The Seventh Stage ###
 The final stage of the chain is the `Action` or `objective` of the attack
+
 
 
 ## MITRE ATT&CK Framework ##
@@ -77,6 +78,7 @@ Another framework for understanding adversary behavior is the MITRE ATT&CK frame
 - Sub-techniques are children of techniques that capture a particular implementation or target
     - T1003.001 - OS Credentials: LSASS Memory
     - T1021.002 - Remote Services: SMB/Windows Admin Shares
+
 
 
 
