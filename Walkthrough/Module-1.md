@@ -3,6 +3,8 @@
 An **event** is an action occurring in a system or network. Example: Sending Email  
 An **incident** is an event with a negative consequence. Example: System Crash, Unauthorized Access
 
+![Module Logo](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/logo/9e65e8b5-217b-46e7-b8bc-eb0a305dd2f4.png)
+
 <span style="color:#58a6ff"> ***Incident handling*** is a clearly defined set of procedures for managing and responding to security incidents in a computer or network environment. </span>
 
 ## Different Types of Real-World Incidents ##
