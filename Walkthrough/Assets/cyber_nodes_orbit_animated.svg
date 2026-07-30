@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 700 400" width="700" height="400">
+<title>Animated Cybersecurity Network Diagram</title>
+<desc>A server stack under threat alert, connected to four orbiting network nodes with animated data pulses, on a dark circuit-board background.</desc>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0a1420"/>
+    <stop offset="100%" stop-color="#0d1b2a"/>
+  </linearGradient>
+
+  <linearGradient id="serverFill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#1b3a5c"/>
+    <stop offset="100%" stop-color="#0f2540"/>
+  </linearGradient>
+
+  <linearGradient id="nodeFill" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#38bdf8"/>
+    <stop offset="100%" stop-color="#0284c7"/>
+  </linearGradient>
+
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#1c3552" stroke-width="0.6" opacity="0.4"/>
+  </pattern>
+
+  <path id="orbitTL" d="M110,60 L110,340" />
+  <path id="orbitTR" d="M590,60 L590,340" />
+</defs>
+
+<!-- Background -->
+<rect x="0" y="0" width="700" height="400" fill="url(#bg)"/>
+<rect x="0" y="0" width="700" height="400" fill="url(#grid)"/>
+
+<!-- Circuit trace accents -->
+<g stroke="#1e3a5f" stroke-width="1" fill="none" opacity="0.6">
+  <path d="M0,80 H70 L90,100 V180"/>
+  <path d="M700,300 H630 L610,280 V150"/>
+  <path d="M0,340 H50"/>
+  <path d="M700,60 H650"/>
+</g>
+<g fill="#2c5482">
+  <circle cx="90" cy="100" r="2.4"/>
+  <circle cx="610" cy="280" r="2.4"/>
+</g>
+
+<!-- Connector lines: nodes to server core -->
+<g stroke="#2f80c4" stroke-width="1.1" opacity="0.55">
+  <line x1="110" y1="90"  x2="285" y2="180"/>
+  <line x1="590" y1="90"  x2="415" y2="180"/>
+  <line x1="110" y1="310" x2="285" y2="230"/>
+  <line x1="590" y1="310" x2="415" y2="230"/>
+</g>
+
+<!-- Traveling data pulses along connector lines -->
+<g fill="#7dd3fc" filter="url(#glow)">
+  <circle r="2.6">
+    <animateMotion dur="2.2s" repeatCount="indefinite"
+      path="M110,90 L285,180"/>
+  </circle>
+  <circle r="2.6">
+    <animateMotion dur="2.4s" repeatCount="indefinite"
+      path="M590,90 L415,180"/>
+  </circle>
+  <circle r="2.6">
+    <animateMotion dur="2.6s" repeatCount="indefinite"
+      path="M110,310 L285,230"/>
+  </circle>
+  <circle r="2.6">
+    <animateMotion dur="2.3s" repeatCount="indefinite"
+      path="M590,310 L415,230"/>
+  </circle>
+</g>
+
+<!-- Corner nodes, gently drifting -->
+<g filter="url(#softGlow)">
+  <g transform="translate(110,90)">
+    <rect x="-15" y="-15" width="30" height="30" rx="6" fill="url(#nodeFill)" opacity="0.92"/>
+    <animateTransform attributeName="transform" type="translate" additive="sum"
+      values="0,0; -4,-6; 0,0" dur="4.4s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(590,90)">
+    <rect x="-15" y="-15" width="30" height="30" rx="6" fill="url(#nodeFill)" opacity="0.92"/>
+    <animateTransform attributeName="transform" type="translate" additive="sum"
+      values="0,0; 5,-5; 0,0" dur="5s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(110,310)">
+    <rect x="-15" y="-15" width="30" height="30" rx="6" fill="url(#nodeFill)" opacity="0.92"/>
+    <animateTransform attributeName="transform" type="translate" additive="sum"
+      values="0,0; -5,5; 0,0" dur="4.7s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(590,310)">
+    <rect x="-15" y="-15" width="30" height="30" rx="6" fill="url(#nodeFill)" opacity="0.92"/>
+    <animateTransform attributeName="transform" type="translate" additive="sum"
+      values="0,0; 4,6; 0,0" dur="5.3s" repeatCount="indefinite"/>
+  </g>
+</g>
+
+<!-- Node inner dots -->
+<g fill="#e0f2fe">
+  <circle cx="110" cy="90" r="3"/>
+  <circle cx="590" cy="90" r="3"/>
+  <circle cx="110" cy="310" r="3"/>
+  <circle cx="590" cy="310" r="3"/>
+</g>
+
+<!-- Server stack -->
+<g>
+  <rect x="270" y="255" width="160" height="34" rx="6" fill="url(#serverFill)" stroke="#3a6ea5" stroke-width="1"/>
+  <rect x="270" y="215" width="160" height="34" rx="6" fill="url(#serverFill)" stroke="#3a6ea5" stroke-width="1"/>
+  <rect x="270" y="175" width="160" height="34" rx="6" fill="url(#serverFill)" stroke="#3a6ea5" stroke-width="1"/>
+  <circle cx="286" cy="272" r="2.2" fill="#38bdf8"/>
+  <circle cx="286" cy="232" r="2.2" fill="#38bdf8"/>
+  <circle cx="286" cy="192" r="2.2" fill="#38bdf8"/>
+</g>
+
+<!-- Warning alert -->
+<g filter="url(#glow)">
+  <polygon points="350,90 388,158 312,158" fill="none" stroke="#f43f5e" stroke-width="4" stroke-linejoin="round">
+    <animate attributeName="opacity" values="1;0.55;1" dur="1.8s" repeatCount="indefinite"/>
+  </polygon>
+</g>
+<line x1="350" y1="112" x2="350" y2="136" stroke="#f43f5e" stroke-width="4" stroke-linecap="round"/>
+<circle cx="350" cy="146" r="2" fill="#f43f5e"/>
+
+<!-- Caption -->
+<text x="350" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#8fb4d9">
+  Compromised endpoints reporting to a server cluster
+</text>
+</svg>
