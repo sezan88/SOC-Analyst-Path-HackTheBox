@@ -29,7 +29,9 @@ An **incident** is an event with a negative consequence. Example: System Crash, 
 ![cykill](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/Cyber_kill_chain.png)
 This shows seven stage of attack. Before respond to an incident, it is important to know how an incident (attack) is actually happening. 
 
-The first stage is '''recon''' where an attacker gather intel about the company or organization.
+The first stage is `recon` where an attacker gather intel about the company or organization.
 ![recon](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/ir_recon.png)
 
-The second stage is <mark>Weaponize</mark> where an attacker builds a stealthy piece of malware (avoids AV/EDR) and packages it into a payload. The information gained from 'recon' process is used here to build the payload.
+The second stage is <mark>Weaponize</mark> where an attacker builds a stealthy piece of malware (avoids AV/EDR) and packages it into a payload. The information gained from <mark>recon</mark> process is used here to build the payload.
+
+In the `Delivery` stage, the attacker gets the payload in front of the victim. The **most common method** is phishing — either a malicious email attachment or a link to a web page. Attackers also use **phone-based social engineering**, calling the victim and convincing them to run a payload. In almost all cases, the victim only needs to do one simple action: double-click a file like `.exe`, `.bat`, `.vbs`, `.js`, or `.hta`. And when digital delivery isn't an option, attackers fall back on **physical delivery**.
