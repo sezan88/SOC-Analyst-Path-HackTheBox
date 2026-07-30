@@ -27,7 +27,7 @@ An **incident** is an event with a negative consequence. Example: System Crash, 
 
 
 ## Cyber Kill Chain ##
-![cykill](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/Cyber_kill_chain.png)
+![cykill](Assets/animated_cyber_kill_chain.svg)
 This shows seven stage of attack. Before respond to an incident, it is important to know how an incident (attack) is actually happening. 
 
 The first stage is `recon` where an attacker gather intel about the company or organization.
@@ -54,9 +54,24 @@ The final stage of the chain is the `Action` or `objective` of the attack
 Another framework for understanding adversary behavior is the MITRE ATT&CK framework. It is a more granular, matrix-based knowledge base of adversary tactics and techniques used to achieve specific goals.
 ![MTIRE](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/mitreintro.png)
 
-#### Tactic ####
+### Tactic ###
 - A high-level adversary objective during an intrusion. Examples:
      - Initial Access.
      - Persistence
      - Privilege Escalation     
 
+### Technique ###
+- A technique is a specific method adversaries use to achieve a tactic.
+   - Techniques have IDs
+         - T1105 (Ingress Tool Transfer)
+         - T1021 (Remote Services)
+
+### Sub-technique ###
+- Sub-techniques are children of techniques that capture a particular implementation or target
+    - T1003.001 - OS Credentials: LSASS Memory
+    - T1021.002 - Remote Services: SMB/Windows Admin Shares
+
+
+## Pyramid of Pain ##
+In the diagram below, the Pyramid of Pain illustrates how much effort it takes for an adversary to change their tactics when defenders detect and block different types of indicators.
+![pyramid](https://securedtips.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1725091025366%2F9f2a89b2-de31-44b0-bcd8-9ddf4296f878.png&w=3840&q=75)
