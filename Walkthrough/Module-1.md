@@ -56,7 +56,7 @@ Another framework for understanding adversary behavior is the MITRE ATT&CK frame
 
 #### Tactic ####
 - A high-level adversary objective during an intrusion. Examples:
-     -Initial Access.
-     -Persistence
-     -Privilege Escalation     
+     - Initial Access.
+     - Persistence
+     - Privilege Escalation     
 
