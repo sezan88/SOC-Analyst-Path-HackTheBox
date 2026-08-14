@@ -91,3 +91,9 @@ It can be used to refer to the mitigation and containment/eradication actions th
 ## MITRE ATT&CK integration in TheHive ##
 `TheHive` is a case management platform designed for cybersecurity teams to efficiently handle incidents by processing alerts. This platform can collect and manage security alerts from various devices. Additionally, `TheHive` offers the capability to import all MITRE ATT&CK Framework Tactics, Techniques, and Procedures (TTPs) into its alert management system. 
 ![hiveimg](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/ir_hive.png)
+
+
+## Incident Handling Process Overview ##
+The Incident Handling Process defines a capability for organizations to prepare, detect, and respond to malicious events.
+As defined by NIST, the incident handling process consists of the following four distinct stages:
+
