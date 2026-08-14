@@ -93,7 +93,9 @@ It can be used to refer to the mitigation and containment/eradication actions th
 ![hiveimg](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/148/ir_hive.png)
 
 
+
+
 ## Incident Handling Process Overview ##
 The Incident Handling Process defines a capability for organizations to prepare, detect, and respond to malicious events.
 As defined by NIST, the incident handling process consists of the following four distinct stages:
-
+![ir-lifecycle](Walkthrough/Assets/ir_lifecycle.svg)
