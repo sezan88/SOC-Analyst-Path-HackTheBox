@@ -112,7 +112,7 @@ There are *two* seperate objectives in the `Preparation Stage`
 ![prep-prereqs](Assets/prereq_4_prep.svg)
 
 ### DMARC ###
-- Domain-based Message Authentication, Reporting and Conformance
+-- Domain-based Message Authentication, Reporting and Conformance
 
 `DMARC` is an email protection mechanism against phishing emails. It combines the both SPF and DKIM protocols for checking email.
 - SPF -> Checks the email ip to confirm the server is allowed to send email or not
