@@ -115,7 +115,9 @@ There are *two* seperate objectives in the `Preparation Stage`
 **Domain-based Message Authentication, Reporting and Conformance**
 
 `DMARC` is an email protection mechanism against phishing emails. It combines the both SPF and DKIM protocols for checking email.
-- SPF -> Checks the email ip to confirm the server is allowed to send email or not
-- DKIM -> Check digital signature to verify email.
+- SPF 
+    - Checks the email ip to confirm the server is allowed to send email or not
+- DKIM 
+    - Check digital signature to verify email.
 In DMARC, both SPF and DKIM protocols are used to confirming an email.
 
