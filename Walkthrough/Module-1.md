@@ -109,7 +109,7 @@ There are *two* seperate objectives in the `Preparation Stage`
 - Gaining ability to implement appropriate protective measures to prevent `security incident`.
 
 ### Preparation Prerequisites ###
-![prep-prereqs](/Assets/prereq_4_prep.svg)
+![prep-prereqs](Assets/prereq_4_prep.svg)
 
 ###DMARC###
 - Domain-based Message Authentication, Reporting and Conformance
