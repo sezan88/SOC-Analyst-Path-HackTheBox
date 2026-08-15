@@ -98,6 +98,24 @@ It can be used to refer to the mitigation and containment/eradication actions th
 ## Incident Handling Process Overview ##
 **The Incident Handling Process** defines a capability for organizations to prepare, detect, and respond to malicious events.
 As defined by NIST, the incident handling process consists of the following four distinct stages:
-![ir-lifecycle](SOC-Analyst-Path-HackTheBox/Walkthrough/Assets/ir_lifecycle.svg)
+![ir-lifecycle](Assets/ir_lifecycle.svg)
 
 **Incident Handling** has two main activities, which are investigating and recovering.
+
+
+##Preparation Stage##
+There are *two* seperate objectives in the `Preparation Stage`
+- Establishment of Incident Handling Capabilities withing the Organization
+- Gaining ability to implement appropriate protective measures to prevent `security incident`.
+
+### Preparation Prerequisites ###
+![prep-prereqs](/Assets/prereq_4_prep.svg)
+
+###DMARC###
+- Domain-based Message Authentication, Reporting and Conformance
+
+`DMARC` is an email protection mechanism against phishing emails. It combines the both SPF and DKIM protocols for checking email.
+- SPF -> Checks the email ip to confirm the server is allowed to send email or not
+- DKIM -> Check digital signature to verify email.
+In DMARC, both SPF and DKIM protocols are used to confirming an email.
+
