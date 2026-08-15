@@ -103,7 +103,7 @@ As defined by NIST, the incident handling process consists of the following four
 **Incident Handling** has two main activities, which are investigating and recovering.
 
 
-##Preparation Stage##
+## Preparation Stage ##
 There are *two* seperate objectives in the `Preparation Stage`
 - Establishment of Incident Handling Capabilities withing the Organization
 - Gaining ability to implement appropriate protective measures to prevent `security incident`.
