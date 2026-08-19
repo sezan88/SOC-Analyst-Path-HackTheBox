@@ -121,3 +121,9 @@ There are *two* seperate objectives in the `Preparation Stage`
     - Check digital signature to verify email.
 In DMARC, both SPF and DKIM protocols are used to confirming an email.
 
+### Endpoint Hardening ###
+Endpoint Devices are the entry points for most of the attacks. Important Actions can be taken:
+- Disable LLMNR/NetBIOS.
+- 
+
+
