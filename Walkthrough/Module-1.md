@@ -123,7 +123,17 @@ In DMARC, both SPF and DKIM protocols are used to confirming an email.
 
 ### Endpoint Hardening ###
 Endpoint Devices are the entry points for most of the attacks. Important Actions can be taken:
-- Disable LLMNR/NetBIOS.
-- 
+- Disable LLMNR/NetBIOS. (Windows Communication Protocol)
+- Implement LAPS (Local Administrator Password Solution)
+- Configure PowerShell in "ConstrainedLanguage" mode.
+- Enable Attack Surface Reduction (ASR) rules if using Microsoft Defender.
+- Implement whitelisting
+- Utilize host-based firewalls.
+- Deploy an EDR product
 
+### Network Protection ###
+***Network Segmentation*** is the technique to divide the whole network into smaller segment. Thus if one network is affected then the other one is safe due to segmentation. `Internal resources` should not face the Internet directly (unless placed in a DMZ).
+IDS/IPS systems are very helpful in identifying and preventing malicious traffic based on content on the wire. Additionally, it has to be ensured that only organization-approved devices can access the network.
+
+### Privilege Identity Management / MFA / Passwords ###
 
